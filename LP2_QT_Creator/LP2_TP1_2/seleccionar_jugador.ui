@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SeleccionarJugadorDialog</class>
+ <widget class="QDialog" name="SeleccionarJugadorDialog">
+  <property name="windowTitle"><string>Seleccionar Jugadores</string></property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+      <layout class="QHBoxLayout" name="countLayout">
+        <item>
+          <widget class="QLabel" name="labelCount">
+            <property name="text"><string>Jugadores:</string></property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QSpinBox" name="spinBoxCount">
+            <property name="minimum"><number>1</number></property>
+            <property name="maximum"><number>8</number></property>
+          </widget>
+        </item>
+      </layout>
+    </item>
+    <item>
+      <widget class="QListWidget" name="listWidgetUsers"/>
+    </item>
+    <item>
+      <layout class="QHBoxLayout" name="buttonsLayout">
+        <item>
+          <widget class="QPushButton" name="buttonOk">
+            <property name="text"><string>Aceptar</string></property>
+          </widget>
+        </item>
+        <item>
+          <widget class="QPushButton" name="buttonCancel">
+            <property name="text"><string>Cancelar</string></property>
+          </widget>
+        </item>
+      </layout>
+    </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
